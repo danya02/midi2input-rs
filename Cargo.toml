@@ -1,0 +1,9 @@
+[package]
+name = "midi2input-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+average = "0.16.0"
+enigo = { version = "0.6.1", features = ["wayland"] }
+midir = "0.10.3"
